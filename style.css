@@ -15,7 +15,7 @@ body {
 .main {
     background-image: url(images/bg.jpg);
     background-position: center center;
-    background-size: max(1200px, 100vw);
+    background-size: max(900px, 100vw);
     background-repeat: no-repeat;
     height: 92vh;
     position: relative;
@@ -304,7 +304,7 @@ footer .questions {
 
     .faq h2 {
         text-align: center;
-        font-size: 32px;
+        font-size: 30px;
     }
 
     footer {
@@ -320,6 +320,10 @@ footer .questions {
 
     .footer-item{
         align-items: center;
+    }
+
+    .faqbox{
+        font-size: 16px;
     }
  
 }
