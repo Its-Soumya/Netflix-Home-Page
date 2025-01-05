@@ -71,6 +71,7 @@ nav button {
 
 nav button:hover {
     background-color: rgba(197, 0, 0, 0.871);
+    transition: background-color 0.4s ease 0.01s;
 }
 
 .hero {
@@ -127,6 +128,7 @@ nav button:hover {
 
 .hero button:hover{
     background-color: rgba(197, 0, 0, 0.871);
+    transition: background-color 0.4s ease 0.01s;
 }
 
 .inputs{
@@ -191,6 +193,10 @@ nav button:hover {
 
 .secimg:hover{
     transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
     box-shadow: 0 8px 10px rgba(216, 216, 216, 0.24);
 }
 
@@ -211,6 +217,10 @@ nav button:hover {
 
 .secvid:hover{
     transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
     box-shadow: 0 8px 10px rgba(216, 216, 216, 0.24);
 }
 
